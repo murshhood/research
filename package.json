@@ -1,0 +1,22 @@
+{
+  "name": "research_geeks_inc",
+  "version": "1.0.0",
+  "description": "This is a web-based application which stands as an umbrella to all world researchers in Africa and the rest of the world.",
+  "main": "epf.js",
+  "scripts": {
+    "start": "node epf.js",
+    "startDev": "nodemon epf.js"
+  },
+  "author": "MurshHood Ade, Nigeria.",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^5.13.3"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
